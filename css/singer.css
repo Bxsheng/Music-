@@ -1,0 +1,12 @@
+#SingerC{
+	margin-top: 60px;
+}
+#singerList{
+	margin: 5px 0;
+}
+#singerList .col-md-1 img{
+	margin-top: 5px;
+}
+#singerList .col-md-2 a{
+	margin: 5px;
+}

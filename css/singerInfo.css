@@ -1,0 +1,13 @@
+ #SingerI{
+		 margin-top: 60px;
+}
+#SingerSong .row .col-md-12{
+	 display: flex; justify-content: center; align-items: center;
+	 margin-top: 10px;
+ }
+ #SingerSong .row .col-md-12:hover{
+	 background: #F8F8F8;
+ }
+ #SingerSong .row .col-md-12 span{
+	 font-size: 28px;
+ }

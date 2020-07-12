@@ -1,0 +1,223 @@
+.navbar-default {
+  background-color: #f8f8f80a;
+  border-color: #e7e7e700;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #337AB7;
+  background-color: transparent;
+  border-bottom: 2px solid #337AB7;
+  font-size: 16px;
+}
+#M_header{
+	background-color: #E9EEEF;
+	border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #170101;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #337AB7;
+  background-color: transparent;
+}
+
+#MainCarousel{
+	margin-top: 60px;
+	background: #90a9b133;
+	border-radius: 10px;
+}
+
+
+#Popular header p{
+	font-size: 20px;
+	color: #5E5E5E
+
+}
+.swiper-container{
+	height: 338px;
+}
+#Carousel .swiper-container .swiper-wrapper .swiper-slide img{
+	border-radius: 10px;
+}
+/* #M_details span{
+  position: relative;
+  left: -100px;
+  top: -50px;
+ 
+} */
+#ListRecommend .row{
+	margin: 5px 0;
+}
+/* 鼠标移动到热门出的事件 */
+#ListRecommend .row .col-xs-4 span{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	font-size: 40px;
+	display: none;
+}
+#ListRecommend .row:hover .col-xs-4 span{
+	display:block ;
+}
+#ListRecommend .row:hover {
+	background: #F8F8F8
+}
+#NewMusic{
+	margin-top: 20px;
+}
+#NewMusic .row {
+	background: #90a9b133;
+	border-radius:10px;
+}
+
+#NewMusic .row .col-md-12 header{
+	border-bottom: 2px solid #000000;
+}
+#Mobile_play{
+	top: -20px;
+	right: 50px;
+	font-size: 30px;
+}
+
+#Music {
+	margin: 5px 0;
+	
+}
+#Music button{
+	position: absolute;
+	top: 0px;
+}
+#Music .detailed{
+	position: absolute;
+	background: #55a3da87;
+	border-radius: 0  0 10px 10px;
+	width: 84%;
+	height: 40px;
+	bottom: 1px;
+	
+}
+#Music  .md-glyphicon{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	font-size: 50px;
+	display: none;
+	
+}
+#Music:hover .md-glyphicon{
+	
+	display: block;
+	
+}
+#MvMusic{
+	margin-top: 20px;
+}
+#MvMusic .row {
+	background: #90a9b133;
+	border-radius: 10px;
+	
+}
+
+
+
+.MvdDtailed {
+	margin: 5px 0;
+}
+
+.MvdDtailed img{
+	border-radius:  5px;
+	overflow: hidden;
+	cursor: pointer;   
+	transition: all 0.9s;
+}
+.MvdDtailed img:hover{
+	border-radius:  5px;
+	transform: scale(1.01);
+	display: block;
+
+	
+}
+.MvdDtailed article{
+	margin: 2px 0;
+}
+.MvdDtailed article a{
+	width: 100%;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #000000;
+	text-decoration: none;
+}
+.MvdDtailed article a:hover{
+	color: #1B6D85;
+}
+.MvdDtailed  .Mv-glyphicon{
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	font-size: 50px;
+	display: none;
+	
+}
+.MvdDtailed .Mv-img img{
+	width: 100%;
+	height: 145px;
+}
+.MvdDtailed .Mv-img:hover .Mv-glyphicon{
+	display: block;
+}
+
+
+#M_Paly{
+	position: fixed;
+	z-index: 90000;
+	width: 18%;
+	right: 5px;
+	bottom: 10px;
+	float: right;
+}
+@media only screen and (max-width : 900px){
+	#M_Paly{
+		bottom: -20px;
+		width: 100%;
+	}
+	#M_Paly .panel-body{
+		display: none;
+	}
+}
+@keyframes btnRotate{
+        0%{transform: rotateZ(0);}
+        100%{transform: rotateZ(360deg);}
+    }
+
+#M_Paly .panel-body img{
+	width: 50px;
+	animation: btnRotate 20s linear forwards;
+	animation-iteration-count:infinite;
+	
+}
+.progress {
+	height: 3px;
+	margin-bottom: 0px;
+}
+.progress_top{
+	margin-top:15px;
+}
+.progress_top .music_time{
+	width: 75%;
+	margin-left: 25%;
+	
+}
+.progress_top .music_time .frist{
+	margin-right: 75%;
+}
+
+#M_footer{
+	margin-top: 10px;
+	height: 50px;
+}

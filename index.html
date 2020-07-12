@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="css/bootstrap.min.css">  
+		  <link rel="stylesheet" href="css/index.css">  
+		  <link rel="stylesheet" href="css/swiper.css">  
+		  <script src="js/jquery.min.js"></script>
+		  <script src="js/bootstrap.min.js"></script>
+		<title>在线音乐`Music</title>   
+	</head>
+	<body>
+		 <audio class="music" id="myAudio" src="">
+		    <!-- <p class="myAudiohide">你的浏览器不支持<code>audio</code>标签.</p> -->
+		</audio>
+		
+	<!-- 导航 -->
+	<nav class="navbar navbar-default navbar-fixed-top ">
+	  <div class="container" id="M_header" >
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">昇`Music</a>
+		</div>
+	
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">发现美好 <span class="sr-only">(current)</span></a></li>
+			<li><a href="singer.html">热门歌手</a></li>
+		  </ul>
+		  <form class="navbar-form navbar-right" action="search.html" method="get">
+			<div class="form-group">
+			  <input type="text"name="search" class="form-control" placeholder="输入搜索信息">
+			</div>
+			<button type="submit" class="btn btn-default">搜索</button>
+		  </form>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+		<div class="container" id="MainCarousel">
+			<div class="row">
+				<!-- 轮播图 -->
+				<div class="col-md-9" id="Carousel" >
+				 <div class="swiper-container">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide"><img src="
+https://bxsheng-blog-img.oss-cn-beijing.aliyuncs.com/%E4%B8%80.png?Expires=1585705687&OSSAccessKeyId=TMP.3KkYwgD5APiWUcKbB3VvTFM9Z9iwQwJoSUtTk9edxtwqRbAmDRm35Rg8VjDgvnsaQC9uAEuwny6n1HweBJ4CqswxuvabCo&Signature=YhTP8q8Cxhtfn%2BOZZje1mq2wj9U%3D" width="100%" height="100%"></div>
+				      <div class="swiper-slide"><img src="img/109951164576248363.jpg" width="100%" height="100%"></div>
+				      <div class="swiper-slide"><img src="img/109951164576332354.jpg" width="100%" height="100%"></div>
+				     
+				    </div>
+				    <!-- Add Pagination -->
+				    <div class="swiper-pagination"></div>
+				    <!-- Add Arrows -->
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+				  </div>
+				</div>
+				<!-- 热门推荐 -->
+				<div class="col-md-3" id="Popular" >
+					<header>
+						<p>热门歌手<small class="pull-right"><a href="singer.html">more</a></small></p>
+					</header>
+					<section>
+						<div id="ListRecommend" >
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- 新歌首发 -->
+		<div class="container" id="NewMusic">
+			<div class="row">
+				<div class="col-md-12">
+					<header><h3>最新歌曲</h3></header>
+				</div>
+			</div>
+		</div>
+	
+	
+		<div class="container" id="MvMusic">
+			<div class="row">
+				<div class="col-md-12">
+					<div>
+						<header>
+							<h3 class="text-center">最新MV</h3>
+						</header>
+					  <!-- Nav tabs -->
+					  <ul class="nav nav-tabs" role="tablist">
+					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">精选</a></li>
+					  
+					  </ul>
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+					    <div role="tabpanel" class="tab-pane active" id="home">
+						</div>
+					  
+					  </div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container" id="M_footer">
+			<!-- //底部信息 -->
+			<p class="text-center"><a href="http://www.beian.miit.gov.cn">桂ICP备19012434号-1</a> 南归客@本小昇</p>
+		</div>
+		<script src="js/base.js"></script>
+		 <script src="js/swiper.js"></script>
+		 <script src="js/common.js"></script>
+		 <script src="js/palyHtml.js"></script>
+		 <script src="js/indexHtml.js"></script>
+		 <script src="js/Storage.js"></script>
+		 <script src="js/MusicPlay.js"></script>
+		 <script src="js/MvMove.js"></script>
+		 <script src="js/index.js"></script>
+		
+
+		
+		
+		
+	
+	</body>
+</html>
